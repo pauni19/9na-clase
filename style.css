@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+html{
+    font-family: 'Livvic', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+
+.que-hace{
+    width: 400px;   
+}
+
+.ejemplo{
+    width: 300px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(248, 200, 180);
+}
+
+
+

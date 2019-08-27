@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th colspan="6">TEMARIO DE CLASES</th>
+        </tr>
+
+        <tr>
+            <th>Elemento</th>
+            <th>¿Qué es?</th>
+            <th class="que-hace">¿Qué hace?</th>
+            <th class="ejemplo">Ejemplo</th>
+            <th>Clase de referencia</th>
+            <th>Fecha de la clase</th>
+        </tr>
+
+        <tr>
+            <td><xmp><html></html></xmp></td>
+            <td>etiqueta</td>
+            <td>Le indica al navegador que es una página web HTML. Se abre arriba de todo y se cierra abajo de todo.</td>
+            <td><xmp><html>contenido de la página web</html></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td><xmp><head></head></xmp></td>
+            <td>Etiqueta</td>
+            <td>Le indica al navegador que acá comienza la información que debe tener sobre la página web. Se abre después de <html> y se cierra al terminar el contenido del head.</td>
+            <td><xmp><head> contenido del head </head></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td><xmp><title></title></xmp></td>
+            <td>Etiqueta</td>
+            <td>Le indica al navegador el título de la página web (se ve arriba en la barra del navegador). Va dentro del head.</td>
+            <td><xmp><title> Mi primera página web</title></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td><xmp><style type="text/css"></style></xmp></td>
+            <td>Etiqueta (style type) Atributo (text/css)</td>
+            <td>Le indica al navegador el estilo de la página web en HTML. Va dentro del head. Incluye los estilos que tienen los diferentes elementos de la página web.</td>
+            <td><xmp><style type="text/css">h1{color: red;}</style></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td><xmp><body></body></xmp></td>
+            <td>Etiqueta</td>
+            <td>Encierra el contenido de la página web que ve el usuario.</td>
+            <td><xmp><body> <h1>Título</h1> <p>Contenido que tendrá el párrafo.</p></body></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td><xmp><h1> </h1></xmp></td>
+            <td>Etiqueta</td>
+            <td>Encierra el título de nivel 1 (el más grande). Puede ir de 1 a 6, va disminuyendo en tamaño e importancia cuanto mayor es el número. H1 solo debe haber uno por página.</td>
+            <td><xmp><h1>Título</h1></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td><xmp><hr></xmp></td>
+            <td>Etiqueta</td>
+            <td>Introduce una barra horizontal que abarca todo el ancho del body. Esta etiqueta no se cierra.</td>
+            <td><xmp><h1 class="verde">Ada Lovelace</h1></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td>color:</td>
+            <td>Propiedad</td>
+            <td>Indica el color del texto de un elemento. El color se indica con el nombre del color en inglés, con código hexadecimal o con código RGB. El color se hereda. Son dos valores para cada color: 2 para rojo, 2 para verde y 2 para azul.  En hexadecimal, blanco es todas F (máximo valor) y negro es todos 0 (mínimo valor). En estos dos casos, se puede poner #FFF (en lugar de #FFFFFF) o #000 (en lugar de #000000).</td>
+            <td>h1 {color: red;}</td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>        
+
+        <tr>
+            <td>h1, p, etc.</td>
+            <td>Selector</td>
+            <td>Selecciona el elemento (puede ser cualquiera de los elementos, no solo h1 o p) para darle una clase, en CSS o dentro de la etiqueta style en HTML.</td>
+            <td><xmp><style type="text/css"> h1{color: red;} p { color: blue;} </style></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td>class=""</td>
+            <td>Atributo</td>
+            <td>Nombra una clase y le da atributos. El nombre puede ser cualquiera. Se indica que es una clase anteponiendo un punto al nombre.</td>
+            <td><xmp><style type="text/css"> .titulo {color: green;} </style></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td>id=""</td>
+            <td>Atributo</td>
+            <td>Nombra un id y le da atributos. El nombre puede ser cualquiera. Se indica que es un id anteponiendo el símbolo de numeral al nombre.</td>
+            <td><xmp><style type="text/css"> #titulo {color: orange;} </style></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td><xmp><strong> </strong></xmp></td>
+            <td>Etiqueta</td>
+            <td>Hace que el texto encerrado por esta etiqueta se ponga en negrita de manera contextual (es decir, destacado respecto del texto que lo rodea).</td>
+            <td><xmp><strong>Augusta Ada King, Condesa de Lovelace</strong></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            <td><xmp><p></p></xmp></td>
+            <td>Etiquta</td>
+            <td>Encierra el contenido de un párrafo. Es un elemento en bloque. De manera predeterminada, pone un margen arriba y abajo.</td>
+            <td><xmp><p>Contenido del párrafo.</p></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>            
+        </tr>
+
+        <tr>
+            <td><xmp><a> </a></xmp></td>
+            <td>Etiqueta</td>
+            <td>Indica un vínculo. Para que funcione como tal, tiene que incluir un atributo que indique dónde está el contenido de ese vínculo. Por ejemplo, href.</td>
+            <td><xmp><a href="https://es.wikipedia.org/wiki/Anna_Isabella_Noel_Byron">Anna Isabella</a></xmp></td>
+            <td>Clase 1</td>
+            <td>Lunes 05 de Agosto</td>
+        </tr>
+
+        <tr>
+            
+        </tr>
+    </table>
+
+</body>
+
+</html>
